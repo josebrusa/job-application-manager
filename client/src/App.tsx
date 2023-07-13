@@ -1,13 +1,11 @@
-import "./App.css";
+import { Home } from "./screens/Home";
 
 function App() {
-    return (
-        <>
-            <main>
-                <h1>Resume Manager</h1>
-            </main>
-        </>
-    );
+  return (
+    <div className="w-max h-screen">
+      <Home />
+    </div>
+  );
 }
 
 export default App;
